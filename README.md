@@ -1,2 +1,5 @@
-# althea_test
-Althea Test
+# Initial
+```sh
+php bin/magento sampledata:deploy
+php bin/magento setup:upgrade
+```

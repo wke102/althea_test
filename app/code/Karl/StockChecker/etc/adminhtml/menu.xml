@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+ 
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+ 
+	<menu>
+		<add 
+			parent="Magento_Catalog::inventory"
+			id="Karl_StockChecker"
+		 	title="Stock Status"
+			module="Karl_StockChecker"
+			sortOrder="100"
+		 	resource="Magento_Backend::content" 
+		/>
+	</menu>
+ 
+</config>
