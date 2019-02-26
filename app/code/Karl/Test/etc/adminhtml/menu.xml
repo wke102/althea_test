@@ -5,11 +5,12 @@
 	<menu>
 		<add 
 			parent="Magento_Catalog::inventory"
-			id="Karl_StockChecker"
-		 	title="Stock Status"
-			module="Karl_StockChecker"
-			sortOrder="100"
+			id="Karl_Test"
+		 	title="Stock Checker"
+			module="Karl_Test"
+			sortOrder="101"
 		 	resource="Magento_Backend::content" 
+		 	action="karl_test/index"
 		/>
 	</menu>
  
